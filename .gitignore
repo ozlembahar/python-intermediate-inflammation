@@ -2,6 +2,11 @@
 .vscode/
 .idea/
 
+# General MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
 # Intermediate Coverage file
 .coverage
 
@@ -12,3 +17,7 @@
 *.pyc
 *.egg-info
 .pytest_cache
+
+# Enviroment
+venv/
+.venv/
